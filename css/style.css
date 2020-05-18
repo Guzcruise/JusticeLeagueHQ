@@ -16,11 +16,11 @@ body {
     text-transform: uppercase;
     background-color: none;
     font-family: 'Righteous', cursive;
-    background-image: url('images/red-2715733_960_720.jpg');
+    background-image: url('../images/star.gif');
   }
   
   .jumbotron {
-   background-image: url('images/red-2715733_960_720.jpg');
+   background-image: url('../images/star.gif');
   }
   
   .verticle-center {
@@ -45,8 +45,6 @@ body {
     color: white;
     font-size: 125px;
     font-weight: 700;
-    margin-left: -30px;
-    margin-right: -30px;
   }
   
   .btn {
@@ -87,11 +85,11 @@ body {
     }
   
     .jumbotron {
-        background-image: url('images/red-2715733_960_720.jpg');
+        background-image: url('../images/star.gif');
     }
 
     body {
-        background-image: url('images/red-2715733_960_720.jpg');
+        background-image: url('../images/star.gif');
     }
   
   }

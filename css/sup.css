@@ -16,11 +16,11 @@ body {
     text-transform: uppercase;
     background-color: none;
     font-family: 'Righteous', cursive;
-    background-image: url('images/rain.gif');
+    background-image: url('../images/saw.gif');
   }
   
   .jumbotron {
-   background-image: url('images/rain.gif');
+   background-image: url('../images/saw.gif');
   }
   
   .verticle-center {
@@ -85,12 +85,11 @@ body {
     }
   
     .jumbotron {
-        background-image: url('images/rain.gif');
+        background-image: url('../images/saw.gif');
     }
 
     body {
-        background-image: url('images/rain.gif');
-        
+        background-image: url('../images/saw.gif');
     }
   
   }

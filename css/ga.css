@@ -16,11 +16,11 @@ body {
     text-transform: uppercase;
     background-color: none;
     font-family: 'Righteous', cursive;
-    background-image: url('images/oa.txt');
+    background-image: url('../images/Green_Leaves_Pattern_dn.jpg');
   }
   
   .jumbotron {
-   background-image: url('images/oa.txt');
+   background-image: url('../images/Green_Leaves_Pattern_dn.jpg');
   }
   
   .verticle-center {
@@ -85,11 +85,11 @@ body {
     }
   
     .jumbotron {
-        background-image: url('images/oa.txt');
+        background-image: url('../images/Green_Leaves_Pattern_dn.jpg');
     }
 
     body {
-        background-image: url('images/oa.txt');
+        background-image: url('../images/Green_Leaves_Pattern_dn.jpg');
     }
   
   }
