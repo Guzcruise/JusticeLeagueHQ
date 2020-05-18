@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
+    --primary-color: rgba(128,128, 128, 0.75);
     --overlay-color: rgba(24, 39, 51, 0.85);
     --menu-speed: 0.75s;
 }
@@ -16,11 +16,11 @@ body {
     text-transform: uppercase;
     background-color: none;
     font-family: 'Righteous', cursive;
-    background-image: url('images/space2.jpg');
+    background-image: url('images/star.gif');
   }
   
   .jumbotron {
-   background-image: url('images/space2.jpg');
+   background-image: url('images/star.gif');
   }
   
   .verticle-center {
@@ -85,11 +85,11 @@ body {
     }
   
     .jumbotron {
-        background-image: url('images/space2.jpg');
+        background-image: url('images/star.gif');
     }
 
     body {
-        background-image: url('images/space2.jpg');
+        background-image: url('images/star.gif');
     }
   
   }

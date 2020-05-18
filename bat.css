@@ -1,0 +1,96 @@
+:root {
+    --primary-color: rgba(128,128, 128, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    text-transform: uppercase;
+    background-color: none;
+    font-family: 'Righteous', cursive;
+    background-image: url('images/rain.gif');
+  }
+  
+  .jumbotron {
+   background-image: url('images/rain.gif');
+  }
+  
+  .verticle-center {
+    height: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+  width: 100%;
+  background-color: none;
+  animation: text 3s 1;
+  }
+  
+  P {
+      color: white;
+      font-size: 30px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 125px;
+    font-weight: 700;
+  }
+  
+  .btn {
+    color: white;
+    border:2px solid white;
+    text-decoration: none;
+    transition: opacity 1s ease-in;
+  }
+
+  .btn:hover {
+      opacity: 0.7;
+      text-decoration: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  @keyframes text{
+      0%{
+          color: black;
+          margin-bottom: -40px;
+      }
+      30%{
+          letter-spacing: 9px;
+          margin-bottom: -40px;
+      }
+      85%{
+          letter-spacing: 2px;
+          margin-bottom: -40px;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .jumbotron {
+      width: 100%;
+    }
+  
+    .jumbotron {
+        background-image: url('images/rain.gif');
+    }
+
+    body {
+        background-image: url('images/rain.gif');
+        
+    }
+  
+  }
