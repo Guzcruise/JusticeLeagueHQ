@@ -18,6 +18,18 @@ body {
     font-family: 'Righteous', cursive;
     background-image: url('../images/rain.gif');
   }
+
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: darkgoldenrod;
+  }
   
   .jumbotron {
    background-image: url('../images/rain.gif');

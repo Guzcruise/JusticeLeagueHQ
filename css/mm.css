@@ -18,6 +18,18 @@ body {
     font-family: 'Righteous', cursive;
     background-image: url('../images/tumblr_ff72d11217e3276f354c56ced9bb43d2_1c5bbf70_400.webp');
   }
+
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: green;
+  }
   
   .jumbotron {
    background-image: url('../images/tumblr_ff72d11217e3276f354c56ced9bb43d2_1c5bbf70_400.webp');

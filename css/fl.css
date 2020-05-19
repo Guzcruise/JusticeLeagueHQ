@@ -19,6 +19,18 @@ body {
     background-image: url('../images/red-2512802_960_720.webp');
   }
   
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: yellow;
+  }
+
   .jumbotron {
    background-image: url('../images/red-2512802_960_720.webp');
   }
